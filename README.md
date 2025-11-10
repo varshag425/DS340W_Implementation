@@ -63,44 +63,6 @@ The project implements the following workflow:
 
 ---
 
-## Running the Notebook in Google Colab
-
-1. **Open the Notebook**
-   Upload or open `paper3_code.ipynb` in [Google Colab](https://colab.research.google.com).
-
-2. **Data Setup**
-   At the top of the notebook, run the **data extraction cell**:
-
-   ```python
-   !pip install -U gdown --quiet
-   import os, re, gdown, zipfile
-
-   shared_link = "https://drive.google.com/file/d/your_shared_zip_id/view?usp=sharing"
-   # The ZIP must contain folders like rangen2_SP01, rangen2_SP02, etc.
-
-   match = re.search(r"(?:/d/|id=|folders/)([-\w]{25,})", shared_link)
-   file_id = match.group(1)
-   zip_url = f"https://drive.google.com/uc?id={file_id}"
-
-   local_root = "/content/project_data"
-   os.makedirs(local_root, exist_ok=True)
-   zip_path = f"{local_root}/rangen2_raw_full.zip"
-
-   gdown.download(zip_url, zip_path, quiet=False)
-   with zipfile.ZipFile(zip_path, 'r') as z:
-       z.extractall(local_root)
-
-   root_dir = local_root
-   ```
-
-   This ensures the `.rcp` files are available for all phases.
-
-3. **Run All Cells**
-   From the menu: **Runtime → Run all**
-   All output files will be saved under `/content/project_data`.
-
----
-
 ## Output Files and Interpretation
 
 * **RG30_PD.csv:** Baseline project durations.
@@ -118,8 +80,9 @@ The project implements the following workflow:
 * The Monte Carlo simulation is set to **N = 200** to reduce runtime.
   For higher fidelity (closer to parent paper results), increase `N_SIMS` to 500–1000.
 * Outputs are normalized and compared against scenario-level baselines for fair accuracy evaluation.
-* Export the notebook as **HTML** (`File → Download → HTML`) to preserve code and results for submission.
 
 ---
 
-Would you like me to add a short **“References”** section at the bottom (APA-style citations for the three parent papers)? It helps if you’re submitting this as part of your written report.
+## References
+
+Ünsal-Altuncan, B., & Vanhoucke, M. (2023). *An SEM–BN hybrid model for project forecasting and control using Monte Carlo simulation*. *Computers & Industrial Engineering, 182*, 109367. https://doi.org/10.1016/j.cie.2023.109367
