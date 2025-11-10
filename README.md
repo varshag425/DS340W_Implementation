@@ -1,10 +1,10 @@
 # DS340W Parent Paper Implementation
 
 
-
-> [!NOTE] Google Drive
-> Link to google drive with data+code: https://drive.google.com/drive/folders/1GdWPX5oJJtORLDCJrSDHKcPSXE8egddA
-
+> [!NOTE]
+> **Google Drive:**  
+> Link to project data and code:  
+> [https://drive.google.com/drive/folders/1GdWPX5oJJtORLDCJrSDHKcPSXE8egddA](https://drive.google.com/drive/folders/1GdWPX5oJJtORLDCJrSDHKcPSXE8egddA)
 
 
 This repository contains the implementation and replication study for **Paper 3** in the DS340W course.
