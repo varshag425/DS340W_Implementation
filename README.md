@@ -25,9 +25,7 @@ The project reproduces the methodology from *Unsal-Altuncan & Vanhoucke (2023)*,
 │   └── RG30_BNEdges.csv          # Learned Bayesian Network edges
 │
 ├── paper3_code.ipynb             # Main Colab notebook (code + outputs)
-├── paper3_code.py                # Script version of the notebook
 ├── README.md                     # Project documentation
-└── requirements.txt              # Dependencies (optional)
 ```
 
 ---
