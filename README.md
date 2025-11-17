@@ -32,7 +32,7 @@ The project reproduces the methodology from *Unsal-Altuncan & Vanhoucke (2023)*,
 
 ---
 
-## Overview
+## Overview (Parent Paper Implementation - Week 10)
 
 The project implements the following workflow:
 
@@ -63,7 +63,7 @@ The project implements the following workflow:
 
 ---
 
-## Output Files and Interpretation
+## Output Files and Interpretation (Week 10)
 
 * **RG30_PD.csv:** Baseline project durations.
 * **RG30_NT.csv:** Computed network metrics (I2–I6).
@@ -74,7 +74,7 @@ The project implements the following workflow:
 
 ---
 
-## Notes and Recommendations
+## Notes and Recommendations (Week 10)
 
 * Ensure that the shared ZIP file contains all subfolders (`rangen2_SP01` through `rangen2_SP09`) directly within it.
 * The Monte Carlo simulation is set to **N = 200** to reduce runtime.
