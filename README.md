@@ -3,7 +3,7 @@
 
 > [!NOTE]
 > **Google Drive:**  
-> Link to project data and code:  
+> Link to project data and code for Week 10:
 > [https://drive.google.com/drive/folders/1GdWPX5oJJtORLDCJrSDHKcPSXE8egddA](https://drive.google.com/drive/folders/1GdWPX5oJJtORLDCJrSDHKcPSXE8egddA)
 
 
@@ -26,6 +26,8 @@ The project reproduces the methodology from *Unsal-Altuncan & Vanhoucke (2023)*,
 │
 ├── paper3_code.ipynb             # Main Colab notebook (code + outputs)
 ├── README.md                     # Project documentation
+├── 340w (2).ipynb                # Week 11: modified Implementation - Part 1
+└── 340W_testMLmodels.ipynb       # Week 11: modified Implementation - Part 2
 ```
 
 ---
