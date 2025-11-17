@@ -15,7 +15,7 @@ The project reproduces the methodology from *Unsal-Altuncan & Vanhoucke (2023)*,
 ## Repository Structure
 
 ```
-├── data/
+├── data/                         # Week 10 data
 │   ├── rangen2_raw/              # Folder containing RanGen2-generated project networks (.rcp)
 │   ├── RG30_PD.csv               # Planned durations (Phase 1 output)
 │   ├── RG30_NT.csv               # Network topology metrics (Phase 2 output)
@@ -24,7 +24,7 @@ The project reproduces the methodology from *Unsal-Altuncan & Vanhoucke (2023)*,
 │   ├── RG30_ModelTable.csv       # Modeling dataset for BN analysis
 │   └── RG30_BNEdges.csv          # Learned Bayesian Network edges
 │
-├── paper3_code.ipynb             # Main Colab notebook (code + outputs)
+├── paper3_code.ipynb             # Week 10 (code + outputs)
 ├── README.md                     # Project documentation
 ├── 340w (2).ipynb                # Week 11: modified Implementation - Part 1
 └── 340W_testMLmodels.ipynb       # Week 11: modified Implementation - Part 2
