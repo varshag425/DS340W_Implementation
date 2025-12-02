@@ -54,7 +54,7 @@ DS340W_Implementation/
 │       │       └── ... up to SP09/
 │       └── README.md                    # Instructions for running Week 10 pipeline locally
 │
-├── data.zip                             # Week 10 data archive (is also inside Paper3Implementation.zip)
+├── data.zip                             # Week 10 data files generated using RanGen2 (https://www.projectmanagement.ugent.be/research/data/RanGen); Is also inside Paper3Implementation.zip
 └── paper3_code (1).ipynb                # Old Week 10 code
 
 ```
