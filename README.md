@@ -125,11 +125,9 @@ The methodology implemented in this repository includes:
 
 1. Synthetic Project Network Generation
 
-  RanGen2 RG30 structure as baseline (Vanhoucke et al., 2008)
-
-  PERT triplets generated around base durations
-
-  CPM used to compute earliest/critical paths
+- RanGen2 RG30 structure as baseline (Vanhoucke et al., 2008)
+- PERT triplets generated around base durations
+- CPM used to compute earliest/critical paths
 
 2. Monte Carlo Simulation (200 runs per project)
 
