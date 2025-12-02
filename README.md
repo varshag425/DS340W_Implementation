@@ -139,12 +139,6 @@ The methodology implemented in this repository includes:
 - Simulation-derived uncertainty features improved delay prediction ability
 - Early-stage SPI/CPI contributed meaningful semi-dynamic forecasting power
 
-# Reproducibility Notes
-
-All randomness is controlled with fixed seeds
-Final dataset is included in /data
-Notebook executes without modification if run via Colab
-No external proprietary data used—entire project is synthetic and reproducible
 
 ## References
 
