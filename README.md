@@ -131,37 +131,37 @@ The methodology implemented in this repository includes:
 
 2. Monte Carlo Simulation (200 runs per project)
 
-  Extracted distributional uncertainty features, including:
+  - Extracted distributional uncertainty features, including:
 
-  mean & variance of activity durations
+  -   mean & variance of activity durations
 
-  probability of late completion
+  - probability of late completion
 
-  critical-path sensitivity
+  - critical-path sensitivity
 
-  network-level uncertainty indicators
+  - network-level uncertainty indicators
 
 3. Early-Stage EVM Features (20% Progress)
 
-  Schedule Performance Index (SPI)
+  - Schedule Performance Index (SPI)
 
-  Cost Performance Index (CPI)
+  - Cost Performance Index (CPI)
 
-  These enable semi-dynamic forecasting—unlike snapshot-based methods.
+  - These enable semi-dynamic forecasting—unlike snapshot-based methods.
 
 4. Supervised Machine Learning Models
 
-  Trained and tested:
+  - Trained and tested:
 
-  Logistic Regression
+  - Logistic Regression
 
-  Naïve Bayes
+  - Naïve Bayes
 
-  Random Forest
+  - Random Forest
 
 5. Baseline Analytical Comparison
 
-  Compared ML performance to a simple deterministic CPM/MC classification rule.
+  - Compared ML performance to a simple deterministic CPM/MC classification rule.
 
 # Key Results
 
