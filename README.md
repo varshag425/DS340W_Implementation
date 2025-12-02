@@ -1,5 +1,7 @@
 # Simulation-Driven Machine Learning Framework for Semi-Dynamic Project-Delay Prediction
+
 DS 340W – Fall 2025
+
 Authors: Siyona Behera, Sahana Ramachandran, Varsha Giridharan
 
 
@@ -11,11 +13,8 @@ This project introduces a simulation-driven machine-learning framework that lear
 Our final dataset contains 1050 synthetic project networks, each simulated with:
 
 - PERT-based uncertainty
-
 - CPM-based structure
-
 - 200-run Monte Carlo outcomes
-
 - Early performance indicators (SPI, CPI at 20% progress)
 
 Three ML models were evaluated: Logistic Regression, Naïve Bayes, and Random Forest, and compared to a simple analytical CPM/MC baseline.
@@ -26,7 +25,7 @@ Three ML models were evaluated: Logistic Regression, Naïve Bayes, and Random Fo
 ## Repository Structure
 
 ```
-DS340W-Repository/
+DS340W_Implementation/
 │
 ├── README.md
 ├── rg30_set1.csv                        # Week 11 dataset (already generated; used by ML models)
