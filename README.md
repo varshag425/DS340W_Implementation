@@ -28,7 +28,7 @@ Three ML models were evaluated: Logistic Regression, Naïve Bayes, and Random Fo
 DS340W_Implementation/
 │
 ├── README.md
-├── rg30_set1.csv                        # Week 11 dataset (already generated; used by ML models)
+├── rg30_set1.csv                        # Week 11 dataset: taken from: https://www.projectmanagement.ugent.be/research/data
 ├── 340W_testMLmodels.ipynb              # Week 11 ML Models (LogReg / NB / RF) using rg30_set1.csv
 ├── 340w (2).ipynb                       # Week 11 data generation
 │
@@ -38,7 +38,7 @@ DS340W_Implementation/
 │       ├── rg30_set1.csv                # Dataset
 │       └── README.md                    # Instructions for running locally; do NOT run data generation
 │
-├── Paper3Implementation.zip             # Updated Week 10 implementation for runnning on local machine
+├── Paper3Implementation.zip             # Updated Week 10 Parent Paper implementation for runnning on local machine
 │   └── Paper3Implementation/
 │       ├── paper3_code.ipynb
 │       ├── data/
