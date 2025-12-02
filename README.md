@@ -34,7 +34,7 @@ DS340W_Implementation/
 │
 ├── FinalPaperImplementation.zip
 │   └── FinalPaperImplementation/
-│       ├── 340w.py                      # Full pipeline (DAG -> PERT -> CPM -> MC -> ML)
+│       ├── final_code.ipynb             # Full pipeline (DAG -> PERT -> CPM -> MC -> ML)
 │       ├── rg30_set1.csv                # Dataset
 │       └── README.md                    # Instructions for running locally; do NOT run data generation
 │
