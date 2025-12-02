@@ -133,13 +133,13 @@ The methodology implemented in this repository includes:
 
   - Extracted distributional uncertainty features, including:
 
-  -   mean & variance of activity durations
+      - mean & variance of activity durations
 
-  - probability of late completion
+      - probability of late completion
 
-  - critical-path sensitivity
+      - critical-path sensitivity
 
-  - network-level uncertainty indicators
+      - network-level uncertainty indicators
 
 3. Early-Stage EVM Features (20% Progress)
 
@@ -153,11 +153,11 @@ The methodology implemented in this repository includes:
 
   - Trained and tested:
 
-  - Logistic Regression
+      - Logistic Regression
 
-  - Naïve Bayes
+      - Naïve Bayes
 
-  - Random Forest
+      - Random Forest
 
 5. Baseline Analytical Comparison
 
