@@ -1,9 +1,9 @@
 # Simulation-Driven Machine Learning Framework for Semi-Dynamic Project-Delay Prediction
----
+
 DS 340W – Fall 2025
 
 Authors: Sahana Ramachandran, Siyona Behera, Varsha Giridharan
----
+
 
 # Project Overview / Motivation
 Schedule delays are a recurring problem in engineering, construction, and software projects. Traditional forecasting tools such as CPM, PERT, fuzzy EVM, and classical Monte Carlo simulations either assume static inputs or treat risks as independent—meaning they fail to capture cascading, interacting risks within project networks.
@@ -97,11 +97,10 @@ Run in: Google Colab
 4. In the Colab file browser (left toolbar → folder icon), verify that: content > drive > MyDrive > FinalCode.ipynb, rg30_set1.csv
 5. Run All
 
-**Note:**
-You do not need to run the Data Generation section of the notebook. We already provided the final dataset rg30_set1.csv.
-
-If you wish, you may run the data-generation section using the RG 30 Set 1.zip files.
-Running the simulation will reproduce the same dataset (as rg30_set1_duplicate.csv) because the random seed is fixed.
+> [!NOTE]
+> You do not need to run the Data Generation section of the notebook. We already provided the final dataset rg30_set1.csv.
+> If you wish, you may run the data-generation section using the RG 30 Set 1.zip files.
+> Running the simulation will reproduce the same dataset (as rg30_set1_duplicate.csv) because the random seed is fixed.
 
 
 ## Parent Paper Implementation (Paper3Implementation.zip)
