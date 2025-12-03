@@ -10,7 +10,7 @@ Schedule delays are a recurring problem in engineering, construction, and softwa
 
 This project introduces a simulation-driven machine-learning framework that learns delay-risk patterns directly from data. Instead of relying on predefined fuzzy rules, grey intervals, or causal diagrams, we use Monte Carlo simulation to generate empirical uncertainty features, and then train ML models to predict project-delay outcomes.
 
-Our final dataset contains 1050 synthetic project networks, each simulated with:
+Our final dataset contains 900 synthetic project networks, each simulated with:
 
 - PERT-based uncertainty
 - CPM-based structure
@@ -36,6 +36,7 @@ DS340W_Implementation/
 ├── 340W_testMLmodels.ipynb              # Week 11 ML Models (LogReg / NB / RF) using rg30_set1.csv
 ├── 340w (2).ipynb                       # Week 11 data generation
 │
+├── Report.pdf                           # Report for project
 │
 ├── Paper3Implementation.zip             # Updated Week 10 Parent Paper implementation (for runnning on local machine)
 │   └── Paper3Implementation/
@@ -75,10 +76,10 @@ Required Libraries:
 - pandas
 - numpy
 - matplotlib
-- seaborn
 - scikit-learn
 - networkx
-- tqdm
+- shap
+
 
 any additional libraries used in the notebook
 
