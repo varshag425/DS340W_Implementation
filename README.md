@@ -1,9 +1,9 @@
 # Simulation-Driven Machine Learning Framework for Semi-Dynamic Project-Delay Prediction
-
+---
 DS 340W – Fall 2025
 
-Authors: Siyona Behera, Sahana Ramachandran, Varsha Giridharan
-
+Authors: Sahana Ramachandran, Siyona Behera, Varsha Giridharan
+---
 
 # Project Overview / Motivation
 Schedule delays are a recurring problem in engineering, construction, and software projects. Traditional forecasting tools such as CPM, PERT, fuzzy EVM, and classical Monte Carlo simulations either assume static inputs or treat risks as independent—meaning they fail to capture cascading, interacting risks within project networks.
@@ -28,17 +28,16 @@ Three ML models were evaluated: Logistic Regression, Naïve Bayes, and Random Fo
 DS340W_Implementation/
 │
 ├── README.md
-├── rg30_set1.csv                        # Week 11 dataset: taken from: https://www.projectmanagement.ugent.be/research/data
+├── rg30_set1.csv                        # Final Paper Dataset: taken from: https://www.projectmanagement.ugent.be/research/data
+├── FinalCode.ipynb                      # Final Paper Code
+├── RG 30 Set 1.zip                      # RG30 set 1 .rcp format files
+│
+│
 ├── 340W_testMLmodels.ipynb              # Week 11 ML Models (LogReg / NB / RF) using rg30_set1.csv
 ├── 340w (2).ipynb                       # Week 11 data generation
 │
-├── FinalPaperImplementation.zip
-│   └── FinalPaperImplementation/
-│       ├── final_code.ipynb             # Full pipeline (DAG -> PERT -> CPM -> MC -> ML)
-│       ├── rg30_set1.csv                # Dataset
-│       └── README.md                    # Instructions for running locally; do NOT run data generation
 │
-├── Paper3Implementation.zip             # Updated Week 10 Parent Paper implementation for runnning on local machine
+├── Paper3Implementation.zip             # Updated Week 10 Parent Paper implementation (for runnning on local machine)
 │   └── Paper3Implementation/
 │       ├── paper3_code.ipynb
 │       ├── data/
@@ -54,7 +53,13 @@ DS340W_Implementation/
 │       │       └── ... up to SP09/
 │       └── README.md                    # Instructions for running Week 10 pipeline locally
 │
-├── data.zip                             # Week 10 data files generated using RanGen2 (https://www.projectmanagement.ugent.be/research/data/RanGen); Is also inside Paper3Implementation.zip
+├── FinalPaperImplementation.zip
+│   └── FinalPaperImplementation/
+│       ├── final_code.ipynb             
+│       ├── rg30_set1.csv                
+│       └── README.md                    # Instructions for running locally
+│
+├── data.zip                             # Week 10 RanGen2 data (duplicate of above) (taken from: https://www.projectmanagement.ugent.be/research/data/RanGen)
 └── paper3_code (1).ipynb                # Old Week 10 code
 
 ```
@@ -81,13 +86,30 @@ any additional libraries used in the notebook
 
 # How to Run the Notebook
 Run files only from:
+- FinalCode.ipynb
 - Paper3Implementation.zip
-- FinalPaperImplmentation.zip
 
-1. Download and unzip each folder on your local machine
-2. Both zip files contain read me docs with further instructions on how to run code files locally.
+## Final Project
+Run in: Google Colab
+1. Download: FinalCode.ipynb, rg30_set1.csv
+2. Upload both files to Google Drive (ensure they appear under My Drive).
+3. Open FinalCode.ipynb on Google Colab (If Colab is not installed: File → Open With → Connect more apps → Google Colab)
+4. In the Colab file browser (left toolbar → folder icon), verify that: content > drive > MyDrive > FinalCode.ipynb, rg30_set1.csv
+5. Run All
 
-If you are using VSCode, Read Me files can be viewed using:
+**Note:**
+You do not need to run the Data Generation section of the notebook. We already provided the final dataset rg30_set1.csv.
+
+If you wish, you may run the data-generation section using the RG 30 Set 1.zip files.
+Running the simulation will reproduce the same dataset (as rg30_set1_duplicate.csv) because the random seed is fixed.
+
+
+## Parent Paper Implementation (Paper3Implementation.zip)
+1. Download and unzip the Paper3Implementation.zip folder on your local machine
+2. Open the folder in Jupyter Notebook or VSCode.
+3. Inside the zip is a README with complete instructions for the Week 10 pipeline.
+
+To view the README in VSCode:
 1. Cmd ⌘ + Shift ⇧ + P (Mac) or Ctrl + Shift + P (Windows)
 2. Then, type -  Markdown: Open Preview
 
